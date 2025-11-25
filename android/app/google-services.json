@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "570966993200",
+    "project_id": "msimockup-c132d",
+    "storage_bucket": "msimockup-c132d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570966993200:android:df0384d09b777f78b240f5",
+        "android_client_info": {
+          "package_name": "com.example.pencatatan_in_out"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe1K_gZrtB9Yd8hNRstjSNwBVXYviXGJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570966993200:android:076c8c4b6d1b5593b240f5",
+        "android_client_info": {
+          "package_name": "com.msi.mockup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe1K_gZrtB9Yd8hNRstjSNwBVXYviXGJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
