@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:intl/date_symbol_data_local.dart'; // Tambahan untuk format tanggal indo
 import 'screen/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  
+  // Inisialisasi format tanggal Indonesia
+  await initializeDateFormatting('id_ID', null);
 
   await Firebase.initializeApp(
     options: const FirebaseOptions(
@@ -26,7 +30,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Money Tracker Firebase',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.deepPurple), // Sesuaikan tema ungu
       home: const HomeScreen(),
     );
   }
